@@ -34,10 +34,10 @@ int f = Integer.parseInt(e);
 
 // Calculate how much money the user has and save it in a double variable 
 
-
+double dollars = d/10 + b/20 + f/4; 
 
 		// Tell the user how much money they have
-
+JOptionPane.showMessageDialog(null, "you have " + dollars + " dollars");
 	}
 }
 
